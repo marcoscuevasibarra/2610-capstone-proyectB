@@ -1,0 +1,94 @@
+header {
+
+ padding: 2rem $gutter;  
+ h1 { 
+    font-size: 2rem;
+
+ } 
+}
+.allcards {
+   display: flex;
+   flex-wrap: wrap;
+   gap: $gutter;
+   margin-left: 100px;
+
+   section {
+      flex-basis: calc(50% - ($gutter/2));
+   }
+}
+
+
+footer div {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   
+}
+   
+footer div section {
+   border-bottom: none;
+}
+
+
+#navWrapper {
+display: block;
+
+width: 200px;
+position: absolute;
+top: 0;
+right: 0;
+
+
+}
+
+header { position: relative;}
+nav { text-align: right;}
+nav ul li a {text-align: right;}
+
+
+
+
+.hero {
+   position: relative;
+   div {
+   position: absolute;
+   text-align: center;
+   top: 16px;
+   
+   left: 550px;
+   width: 180px;
+  height: 55px;
+   color: #0b090a;
+   background: linear-gradient(0deg, rgba(164,181,205,0.89140625) 28%, rgba(226,233,235,0.8428348214285715) 43%, rgba(211,221,221,0.7) 88%, rgba(0,0,0,0.4) 94%);
+   padding: 4px 4px;
+       h3 {text-shadow: 0 0 4px white;
+       font-size: 10px;}
+       p {text-shadow: 0 0 4px white;
+       font-size: 9px;}
+   }
+   
+   video {
+   
+       width: 100%;
+       height: auto;
+       margin: 0;
+   }
+   }
+
+
+   #company, #company2 { display: flex;
+      flex-wrap: wrap;
+      width: 600px;
+      margin: 20px 90px;
+      justify-content: center;
+      
+
+       img { width: 130px;
+           margin-left: 4px;
+           margin-right: 4px;
+       }
+   }
+   #logos {width: auto;}
+   //#logos {width: auto;}
+
+   p#hit  {height: 160px;}
